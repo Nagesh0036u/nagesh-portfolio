@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Nagesh R — AI & ML student portfolio." />
+  <title>Nagesh R | AI & ML Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="cursor-glow"></div>
+
+  <header class="navbar">
+    <a class="brand" href="#home" aria-label="Nagesh home">
+      <span class="brand-mark">NR</span>
+      <span>Nagesh R</span>
+    </a>
+    <button class="menu-toggle" aria-label="Toggle navigation">☰</button>
+    <nav class="nav-links">
+      <a href="#home">Home</a>
+      <a href="#about">About</a>
+      <a href="#skills">Skills</a>
+      <a href="#projects">Projects</a>
+      <a href="#education">Education</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <main>
+    <section id="home" class="hero section">
+      <div class="hero-copy reveal">
+        <p class="eyebrow"><span></span> AI & MACHINE LEARNING STUDENT</p>
+        <h1>Building <em>practical AI</em> for real-world problems.</h1>
+        <p class="hero-text">
+          I'm Nagesh R, an AIML student focused on Python, machine learning,
+          computer vision, NLP and data analysis — with hands-on experience
+          building real-time AI and web applications.
+        </p>
+        <div class="hero-actions">
+          <a class="btn primary" href="#projects">Explore Projects <span>↗</span></a>
+          <a class="btn ghost" href="Nagesh_R_Resume.pdf" target="_blank">View Resume</a>
+        </div>
+        <div class="quick-stats">
+          <div><strong>5+</strong><span>AI Projects</span></div>
+          <div><strong>2027</strong><span>Graduation</span></div>
+          <div><strong>AI/ML</strong><span>Focus Area</span></div>
+        </div>
+      </div>
+
+      <div class="hero-visual reveal">
+        <div class="orbit orbit-one"></div>
+        <div class="orbit orbit-two"></div>
+        <div class="portrait-frame">
+          <img src="assets/profile.jpg" alt="Portrait of Nagesh R" />
+        </div>
+        <div class="floating-card card-top">
+          <span class="dot"></span> Python · ML · CV · NLP
+        </div>
+        <div class="floating-card card-bottom">
+          <span class="spark">✦</span> Turning ideas into working prototypes
+        </div>
+      </div>
+    </section>
+
+    <section id="about" class="section about">
+      <div class="section-heading reveal">
+        <p class="eyebrow">01 / ABOUT</p>
+        <h2>Curious about AI.<br><em>Serious about building.</em></h2>
+      </div>
+      <div class="about-grid">
+        <div class="about-panel reveal">
+          <p>
+            I’m an AI & ML engineering student at Aditya College of Engineering
+            and Technology. My interests sit at the intersection of machine
+            learning, computer vision, NLP and useful web applications.
+          </p>
+          <p>
+            I enjoy taking an idea from a problem statement to a working
+            prototype — from offline voice automation to resume analysis,
+            health prediction and real-time computer vision.
+          </p>
+        </div>
+        <div class="about-highlight reveal">
+          <span class="big-number">01</span>
+          <div>
+            <h3>Problem → Model → Application</h3>
+            <p>My projects focus on making ML useful, visible and easy to interact with.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="skills" class="section">
+      <div class="section-heading reveal">
+        <p class="eyebrow">02 / TOOLKIT</p>
+        <h2>Skills I use to <em>build.</em></h2>
+      </div>
+      <div class="skills-grid">
+        <article class="skill-card reveal">
+          <span class="skill-icon">01</span>
+          <h3>Programming</h3>
+          <div class="chips"><span>Python</span><span>Java</span><span>C++</span><span>C</span></div>
+        </article>
+        <article class="skill-card reveal">
+          <span class="skill-icon">02</span>
+          <h3>AI & ML</h3>
+          <div class="chips"><span>Machine Learning</span><span>Deep Learning</span><span>CNNs</span><span>RNNs</span><span>Transformers</span></div>
+        </article>
+        <article class="skill-card reveal">
+          <span class="skill-icon">03</span>
+          <h3>Data</h3>
+          <div class="chips"><span>SQL</span><span>NumPy</span><span>Pandas</span><span>Scikit-learn</span></div>
+        </article>
+        <article class="skill-card reveal">
+          <span class="skill-icon">04</span>
+          <h3>Build & Deploy</h3>
+          <div class="chips"><span>TensorFlow</span><span>Streamlit</span><span>Flask</span><span>Git</span><span>HTML/CSS</span><span>Figma</span></div>
+        </article>
+      </div>
+    </section>
+
+    <section id="projects" class="section projects">
+      <div class="section-heading reveal">
+        <p class="eyebrow">03 / SELECTED WORK</p>
+        <h2>Projects with a <em>purpose.</em></h2>
+        <p class="section-subtitle">Filter the work, then open a project for its details.</p>
+      </div>
+
+      <div class="project-filters reveal" role="tablist" aria-label="Project filters">
+        <button class="filter active" data-filter="all">All</button>
+        <button class="filter" data-filter="ai">AI / ML</button>
+        <button class="filter" data-filter="nlp">NLP</button>
+        <button class="filter" data-filter="cv">Computer Vision</button>
+        <button class="filter" data-filter="app">Applications</button>
+      </div>
+
+      <div class="projects-grid">
+        <article class="project-card reveal" data-category="ai app" data-project="voice">
+          <div class="project-number">01</div>
+          <div class="project-icon">◉</div>
+          <p class="project-type">AI / AUTOMATION</p>
+          <h3>Offline Voice Command Deck</h3>
+          <p>Offline voice-controlled desktop assistant for PC automation using speech recognition.</p>
+          <div class="tech-row"><span>Python</span><span>Streamlit</span><span>Whisper</span></div>
+          <button class="project-open">View case <span>↗</span></button>
+        </article>
+
+        <article class="project-card reveal" data-category="ai nlp app" data-project="resume">
+          <div class="project-number">02</div>
+          <div class="project-icon">⌁</div>
+          <p class="project-type">NLP / CAREER AI</p>
+          <h3>AI Resume Screening & Job Match Analyzer</h3>
+          <p>ATS-style analyzer that compares resumes with job descriptions using NLP and similarity scoring.</p>
+          <div class="tech-row"><span>Python</span><span>NLP</span><span>Scikit-learn</span></div>
+          <button class="project-open">View case <span>↗</span></button>
+        </article>
+
+        <article class="project-card reveal" data-category="ai app" data-project="heart">
+          <div class="project-number">03</div>
+          <div class="project-icon">♡</div>
+          <p class="project-type">MACHINE LEARNING</p>
+          <h3>Heart Health Analyzer</h3>
+          <p>ML application that predicts heart disease risk from health parameters.</p>
+          <div class="tech-row"><span>Random Forest</span><span>Streamlit</span><span>Pandas</span></div>
+          <button class="project-open">View case <span>↗</span></button>
+        </article>
+
+        <article class="project-card reveal" data-category="ai cv app" data-project="hearing">
+          <div class="project-number">04</div>
+          <div class="project-icon">◌</div>
+          <p class="project-type">REAL-TIME AI</p>
+          <h3>Smart Hearing Protector</h3>
+          <p>Real-time system that detects unsafe noise levels and alerts users.</p>
+          <div class="tech-row"><span>Python</span><span>Flask</span><span>JavaScript</span></div>
+          <button class="project-open">View case <span>↗</span></button>
+        </article>
+
+        <article class="project-card reveal" data-category="ai cv app" data-project="drowsy">
+          <div class="project-number">05</div>
+          <div class="project-icon">◐</div>
+          <p class="project-type">COMPUTER VISION</p>
+          <h3>Sleepy Driver Alarm</h3>
+          <p>Real-time driver drowsiness detection system using computer vision.</p>
+          <div class="tech-row"><span>OpenCV</span><span>MediaPipe</span><span>NumPy</span></div>
+          <button class="project-open">View case <span>↗</span></button>
+        </article>
+      </div>
+    </section>
+
+    <section id="education" class="section education">
+      <div class="section-heading reveal">
+        <p class="eyebrow">04 / EDUCATION</p>
+        <h2>The road so far.</h2>
+      </div>
+      <div class="timeline">
+        <div class="timeline-item reveal">
+          <span class="timeline-year">2023 — 2027</span>
+          <div><h3>Bachelor of Engineering and Technology in AIML</h3><p>Aditya College of Engineering and Technology · Bengaluru, India</p></div>
+        </div>
+        <div class="timeline-item reveal">
+          <span class="timeline-year">2021 — 2023</span>
+          <div><h3>Pre University Course</h3><p>Mangalore Pre-University College · Bengaluru, India</p></div>
+        </div>
+        <div class="timeline-item reveal">
+          <span class="timeline-year">SSLC</span>
+          <div><h3>Vishwa Bharathi High School</h3><p>Bengaluru, India</p></div>
+        </div>
+      </div>
+    </section>
+
+    <section id="certificates" class="section certificates">
+      <div class="section-heading reveal">
+        <p class="eyebrow">05 / CERTIFICATIONS</p>
+        <h2>Learning beyond <em>the classroom.</em></h2>
+      </div>
+      <div class="certificate-grid">
+        <div class="certificate reveal"><span>✦</span><div><h3>Python for Data Science</h3><p>NPTEL · 60%</p></div></div>
+        <div class="certificate reveal"><span>✦</span><div><h3>AIML Technologies</h3><p>DTC Infotech</p></div></div>
+        <div class="certificate reveal"><span>✦</span><div><h3>Business Analytics with Excel</h3><p>Microsoft</p></div></div>
+        <div class="certificate reveal"><span>✦</span><div><h3>JavaScript Fundamental</h3><p>Certificate</p></div></div>
+      </div>
+    </section>
+
+    <section id="contact" class="section contact">
+      <div class="contact-box reveal">
+        <p class="eyebrow">06 / CONTACT</p>
+        <h2>Let’s build something<br><em>useful with AI.</em></h2>
+        <p>Open to conversations about AI/ML, data, internships, projects and opportunities.</p>
+        <div class="contact-links">
+          <a href="mailto:nagesh9686256580@gmail.com">Email ↗</a>
+          <a href="https://www.linkedin.com/in/nagesh-r-a605a9323" target="_blank" rel="noreferrer">LinkedIn ↗</a>
+          <a href="https://github.com/Nagesh0036u" target="_blank" rel="noreferrer">GitHub ↗</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <span>© 2026 Nagesh R</span>
+    <span>Designed in Ice Silver · Deep Aubergine · Marigold</span>
+  </footer>
+
+  <div class="modal" aria-hidden="true">
+    <div class="modal-backdrop"></div>
+    <div class="modal-card" role="dialog" aria-modal="true">
+      <button class="modal-close" aria-label="Close">×</button>
+      <p class="eyebrow" id="modal-type"></p>
+      <h2 id="modal-title"></h2>
+      <p id="modal-description"></p>
+      <div class="modal-tech" id="modal-tech"></div>
+      <div class="modal-note"><span>✦</span> Built as a practical AI / ML prototype.</div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
